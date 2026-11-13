@@ -1,8 +1,7 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+html{
+    background-color: rgba(226, 231, 236, 0,952);
     margin: 0;
-    background-color: #ebe3eb;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 header{
   background-color: rgb(187, 62, 156);  
@@ -10,12 +9,14 @@ header{
   text-align: center;
   padding: 25px;
 }
-header h1{
+#p{
     color: rgb(20, 19, 19);
 }
 nav{
     background-color: indianred;
-    padding: 15px;
+    color: white;
+    margin: 0px;
+    padding: 10px;
     text-align: center;
 }
 nav a{
@@ -26,7 +27,6 @@ nav a{
 }
 nav a:hover{
     background-color: crimson;
-    color: azure;
 }
 main{
     max-width: 1100px;
@@ -43,6 +43,7 @@ h2{
 }
 p{
     text-align: justify;
+    text-align: center;
 }
 img{
     max-width: 100%;
@@ -51,7 +52,6 @@ img{
 table{
     width: 100%;
     border-collapse: collapse;
-    background-color: rgb(218, 173, 197);
 }
 th,td{
     border: 1px solid #ebe3eb;
@@ -66,6 +66,7 @@ input,select,textarea{
     padding: 10px;
     width: 100%;
     margin-top: 5px;
+    margim-bottom: 12px;
 }
 input[type="submit"]{
     background: rgb(212, 108, 124);
@@ -76,7 +77,6 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     background-color: brown;
-    color: azure;
 }
 #beranda{
     background-color: salmon;
